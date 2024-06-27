@@ -5,11 +5,11 @@ One of the things that drove me crazy about text adventure games when I was a ki
 
 Can cheap, fast, Natural Language Processing help fix that? Could I find out without building just another chatbot?
 
-Well, yeah -here's the code. And I even wrote about:
+Well, yeah -here's the code. And I even wrote:
 
- - [this local version you can run on your own machine](https://andresvarela.com/2024/06/cleanerbot-rescue-part-1/)
+ - a [more detailed blogpost describing how this repo's components work](https://andresvarela.com/2024/06/cleanerbot-rescue-part-1/)
  - a web version you can [play for yourself online](https://dulcet-buttress-422311-g5.et.r.appspot.com/)
- - the codebase for that online version
+ - the [GitHub repo for that online version](https://github.com/ThatAndresV/cleanerbot-rescue/)
  - and even a [completely codeless implementation](https://andresvarela.com/2024/06/cleanerbot-rescue-part-3/)
 
 You (the player) are communicating remotely with a distant Cleanerbot, directing it on a search and rescue mission on a burning spaceship to excuse any latency between input and response.  You speak rather than type your inputs. This is a 21st century text adventure after all.
