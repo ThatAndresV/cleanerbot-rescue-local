@@ -19,11 +19,9 @@ This Python application integrates various functionalities for audio processing,
 ## Features
 
 - **Google Cloud Speech-to-Text**: Converts audio input into text.
-- **Google Cloud Text-to-Speech**: Converts text responses into spoken audio.
 - **Anthropic API Integration**: Utilizes Claude AI for processing user commands and generating responses.
 - **Audio Processing**: Uses PyAudio for handling audio input and output.
 - **Text-to-Speech with pyttsx3**: Provides an offline alternative for text-to-speech conversion.
-- **Session Management**: Includes mechanisms to handle user sessions and manage errors and profanity.
 
 ## Prerequisites
 
