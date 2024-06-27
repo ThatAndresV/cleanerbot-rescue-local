@@ -136,7 +136,7 @@ This Python application integrates various functionalities for audio processing,
     Ensure you have your Google Cloud credentials JSON file. Set the environment variable for Google Cloud:
 
     ```bash
-    export GOOGLE_APPLICATION_CREDENTIALS="path/to/your/credentials.json"
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "path/to/your/credentials.json"
     ```
 
 6. **Set Up Anthropic API Key**
@@ -144,7 +144,7 @@ This Python application integrates various functionalities for audio processing,
     Ensure you have your Anthropic API key set in the environment variable:
 
     ```bash
-    export ANTHROPIC_API_KEY="your_anthropic_api_key"
+    api_key="your_anthropic_api_key",
     ```
 
 ## Usage
@@ -154,13 +154,13 @@ This Python application integrates various functionalities for audio processing,
     - On Windows
 
         ```bash
-        python cleanerbot-rescue-local.py
+        python cleanerbot-rescue.py
         ```
 
     - On macOS/Linux:
 
         ```bash
-        python3 cleanerbot-rescue-local.py
+        python3 cleanerbot-rescue.py
         ```
 
 2. **Interacting with the Application**
