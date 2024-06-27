@@ -1,0 +1,5 @@
+potato,banana,potato,escapepod,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,True,False,False,readyroom,engineering,engineering,1,0,"[\'+ Banana\', \'+ Apple\']"
+cloak,fox,kettle,escapepod,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,True,False,False,readyroom,engineering,engineering,1,0,"[\'+ Banana\']"
+ruminant,pulpit,unmanned,escapepod,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,True,False,False,readyroom,engineering,engineering,3,0,"[' + Banana', '+ Apple']"
+shudder,restful,birth,bridge,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,True,False,False,readyroom,engineering,engineering,1,0,"[\'+ Miscellaneous cleansing tools and fluids\']"
+calorie,normalization,sundial,bridge,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,True,False,False,readyroom,engineering,engineering,5,0,"[\'+ Miscellaneous cleansing tools and fluids\']"
