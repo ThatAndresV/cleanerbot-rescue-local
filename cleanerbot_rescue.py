@@ -13,20 +13,6 @@ import ast
 import json
 import csv
 
-#########
-# See if moving baseprompt to external url makes token submission smaller.
-# In space, no one can hear you scream commands at a cleaning droid.
-# Profanity count to terminate session
-# Error message count to terminate session
-# Experiment with switching from Claude 3 Opus to Claude 3 Sonnet - row 281
-# Ignore double clicks (might not be an issue with Flask / javascript UI)
-# Include seenoscar as a condition to speaking to him
-#
-# Create a special sound input > tts which doesn't feed Claude, but instead feeds the load function.
-#
-#########
-
-# Set up Google Cloud API credentials
 # Set up Google Cloud API credentials
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "path/to/your/credentials.json"
 
