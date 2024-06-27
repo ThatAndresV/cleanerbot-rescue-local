@@ -27,6 +27,7 @@ import csv
 #########
 
 # Set up Google Cloud API credentials
+# Set up Google Cloud API credentials
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "path/to/your/credentials.json"
 
 # Set up Anthropic API key
@@ -493,7 +494,9 @@ def run_voice_assistant():
     def savegame():
         # Save state
         # Convert inventory to a string and wrap it in double quotes with escaped single quotes
-        inventory_str = f'"[{", ".join([f"\\\'{item}\\\'" for item in inventory])}]"'
+        inventory_str = '"[{0}]"'.format(", ".join(["\\'{0}\\'".format(item) for item in inventory]))
+
+
 
         save_state = (f"{location},{hasbook},{hasdave},{seenerror},{seenbridge},{seenreadyroom},"
               f"{seenengineering},{seenpanel},{seenfire},{seenoscar},{seenescapepod},{seendave},"
@@ -689,7 +692,7 @@ def run_voice_assistant():
         inventory_array_as_string = inventory_array_as_string.strip('"').replace("\\'", "'")
 
         # Print the string to debug
-        print(f"Inventory array as string: {inventory_array_as_string}")
+        #print(f"Inventory array as string: {inventory_array_as_string}")
 
         # Use ast.literal_eval to convert the string to a list
         try:
